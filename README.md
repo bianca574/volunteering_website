@@ -32,6 +32,10 @@ Check out the current version here: [https://bianca574.github.io/volunteering_we
 - Optimize for accessibility  
 - Deploy on GitHub Pages
 
+## 📸 Screenshot
+
+[images/screenshot.jpg]
+
 ## 📄 License
 
 This project is closed-source. All rights reserved.
