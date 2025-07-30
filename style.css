@@ -1,0 +1,204 @@
+
+@import url('https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+:root{
+    --clr: #31adf0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+    line-height: 1.6;
+    font-size: 25px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    background: #fff;
+    color: var(--clr);
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    grid-area: header;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 2rem;
+}
+
+.container {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+ul {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    z-index: 10;
+}
+
+ul li {
+    position: relative;
+    list-style: none;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.el {
+    left: -60rem;
+}
+
+.day-night {
+    position: relative;
+    height: 3rem;
+    width: 6rem;
+    border-radius: 24px;
+    background: var(--clr);
+}
+
+.switch {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    background: white;
+    z-index: 20;
+}
+
+.close-btn {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    right: -5rem;
+    top: 3rem;
+    z-index: 10;
+}
+
+.fi-sr-cross {
+    color: white;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.circle {
+    position: fixed;
+    border-radius: 50%;
+    background: var(--clr);
+}
+
+.one {
+    position: relative;
+    height: 13rem;
+    width: 13rem;
+    top: -30rem;
+    left: 30rem;
+}
+
+.two {
+    position: relative;
+    height: 17rem;
+    width: 17rem;
+    top: 30rem;
+    left: 20rem;
+}
+
+.three {
+    position: relative;
+    height: 21rem;
+    width: 21rem;
+    top: 30rem;
+    left: -30rem;
+}
+
+.menu-btn {
+    position: relative;
+    cursor: pointer;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background: var(--clr);
+}
+
+.fi-rr-menu-burger {
+    position: absolute;
+    top: 3rem;
+    left: 3.2rem;
+    cursor: pointer;
+    color: white;
+    z-index: 10;
+}
+
+main {
+    grid-area: main;
+    width: 100%;
+    padding: 2rem;
+}
+
+#about, #team, #events, #camp, #sponsors, #reports, #contacts {
+    height: 100vh;
+    width: 100%;
+}
+
+footer {
+    grid-area: footer;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .one {
+        top: -30rem;
+        left: 70rem;
+    }
+
+    .two {
+        top: 30rem;
+        left: 60rem;
+    }
+
+    .three {
+        top: 30rem;
+        left: -70rem;
+    }
+
+    .close-btn {
+        right: -3rem;
+    }
+}
