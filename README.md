@@ -34,7 +34,7 @@ Check out the current version here: [https://bianca574.github.io/volunteering_we
 
 ## 📸 Screenshot
 
-[images/screenshot.jpg]
+images/screenshot.jpg
 
 ## 📄 License
 
