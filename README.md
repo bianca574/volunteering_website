@@ -5,7 +5,7 @@ Built with HTML, CSS, and JavaScript.
 
 ## 🌟 Project Goal
 
-To create an easy-to-navigate, informative platform that showcases volunteer opportunities and helps users get involved with local projects.
+To create an easy-to-navigate, informative platform that showcases past projects, volunteer opportunities and helps users get involved with local projects.
 
 ## 🌐 Live Demo
 
