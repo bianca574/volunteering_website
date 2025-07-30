@@ -9,7 +9,7 @@ To create an easy-to-navigate, informative platform that showcases past projects
 
 ## 🌐 Live Demo
 
-Check out the current version here:  
+Check out the current version here: [https://bianca574.github.io/volunteering_website/]
 
 ## 🛠️ Tech Stack
 
