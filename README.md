@@ -11,6 +11,8 @@ To create an easy-to-navigate, informative platform that showcases past projects
 
 Check out the current version here: [https://bianca574.github.io/volunteering_website/]
 
+![Volunteering NGO Website](images/screenshot.jpg)
+
 ## 🛠️ Tech Stack
 
 - HTML
@@ -31,10 +33,6 @@ Check out the current version here: [https://bianca574.github.io/volunteering_we
 - Implement responsive design improvements  
 - Optimize for accessibility  
 - Deploy on GitHub Pages
-
-## 📸 Screenshot
-
-![Volunteering NGO Website](images/screenshot.jpg)
 
 ## 📄 License
 
