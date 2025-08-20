@@ -1,7 +1,6 @@
 # Volunteering NGO Website 🚧 (Work in Progress)
 
 This is a website project for a volunteering NGO aimed at connecting volunteers with community initiatives.  
-Built with HTML, CSS, and JavaScript.
 
 ## 🌟 Project Goal
 
